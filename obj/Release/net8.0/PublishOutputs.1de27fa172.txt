@@ -1,0 +1,8 @@
+/Users/miraykaragoz/RiderProjects/Postman/bin/Release/net8.0/publish/Postman
+/Users/miraykaragoz/RiderProjects/Postman/bin/Release/net8.0/publish/appsettings.Development.json
+/Users/miraykaragoz/RiderProjects/Postman/bin/Release/net8.0/publish/appsettings.json
+/Users/miraykaragoz/RiderProjects/Postman/bin/Release/net8.0/publish/Postman.dll
+/Users/miraykaragoz/RiderProjects/Postman/bin/Release/net8.0/publish/Postman.deps.json
+/Users/miraykaragoz/RiderProjects/Postman/bin/Release/net8.0/publish/Postman.runtimeconfig.json
+/Users/miraykaragoz/RiderProjects/Postman/bin/Release/net8.0/publish/Postman.pdb
+/Users/miraykaragoz/RiderProjects/Postman/bin/Release/net8.0/publish/RestSharp.dll

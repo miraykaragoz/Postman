@@ -1,0 +1,33 @@
+@model Post
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Post Detay</title>
+</head>
+<body>
+<div>
+    <header>
+        <div class="container">
+            <h1>@Model.Title</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <article>
+                <p>
+                    @Model.Body
+                </p>
+            </article>
+            <section class="feedback">
+                <button class="like-button">Beğen 👍</button>
+                <span id="like-count">@Model.Reactions.Likes</span>
+                <button class="dislike-button">Beğenme 👎</button>
+                <span id="dislike-count">@Model.Reactions.Dislikes</span>
+            </section>
+        </div>
+    </main>
+</div>
+</body>
+</html>

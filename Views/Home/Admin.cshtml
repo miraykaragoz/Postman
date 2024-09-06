@@ -1,0 +1,36 @@
+@model PostsList
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Postlar</title>
+</head>
+<body>
+<div>
+    <a href="/Home/Create">Yazı Ekle</a>
+    <table class="table">
+        <thead>
+        <tr>
+            <th scope="col" width="40%">Başlık</th>
+            <th scope="col" width="20%">İçerıik</th>
+            <th scope="col" width="20%">#</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var post in Model.Posts)
+        {
+        <tr>
+            <td>@post.Title</td>
+            <td>@post.Body</td>
+            <td>
+                <a href="/home/update/@post.Id" class="btn btn-primary">Düzenle</a>
+                <a href="/home/delete/@post.Id" onclick="return confirm('Postu silmek istediğinize emin misiniz?')" class="btn btn-danger">Sil</a>
+            </td>
+        </tr>
+        }
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

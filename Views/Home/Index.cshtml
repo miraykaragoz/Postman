@@ -1,0 +1,18 @@
+﻿@model PostsList
+
+@{
+    ViewData["Title"] = "Anasayfa";
+}
+
+<div class="cards-container">
+    @foreach (var item in Model.Posts)
+    {
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">@item.Title</h5>
+                <p class="card-text">@item.Body</p>
+                <a href="/home/details/@item.Id" class="btn btn-primary">Detaya Git</a>
+            </div>
+        </div>
+    }
+</div>

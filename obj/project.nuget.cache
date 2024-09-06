@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "wwaGNOGJBFc=",
+  "success": true,
+  "projectFilePath": "/Users/miraykaragoz/RiderProjects/Postman/Postman.csproj",
+  "expectedPackageFiles": [
+    "/Users/miraykaragoz/.nuget/packages/restsharp/112.0.0/restsharp.112.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

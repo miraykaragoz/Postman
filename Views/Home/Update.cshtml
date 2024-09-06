@@ -1,0 +1,25 @@
+@model Post
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Post Ekle</title>
+</head>
+<body>
+<div>
+    <form class="row g-3" method="post">
+        <div class="mb-3">
+            <label class="form-label">Başlık</label>
+            <input required type="text" value="@Model.Title" class="form-control" name="title">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Özet</label>
+            <input required type="text" value="@Model.Body" class="form-control" name="summary">
+        </div>
+
+        <button class="btn btn-primary">Duzenle</button>
+    </form>
+</div>
+</body>
+</html>
